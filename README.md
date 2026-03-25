@@ -7,6 +7,7 @@
 </p>
 
 
+
 We investigate how large language models handle multi-instance processing (MIP), where multiple inputs must be analysed and aggregated within a single prompt. Our results show that performance degrades as the number of instances increases, with instance count having a stronger impact than context length.
 
 <p align="center">
@@ -96,3 +97,15 @@ tweets:
 
 Set `resume_from: "YYYYMMDD_HHMMSS"` in your config to continue from a checkpoint.
 
+## Citation
+```
+@misc{chen2026understandingllmperformancedegradation,
+      title={Understanding LLM Performance Degradation in Multi-Instance Processing: The Roles of Instance Count and Context Length}, 
+      author={Jingxuan Chen and Mohammad Taher Pilehvar and Jose Camacho-Collados},
+      year={2026},
+      eprint={2603.22608},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2603.22608}, 
+}
+```
