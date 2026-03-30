@@ -1,5 +1,5 @@
 # Task Data
-Beyond the Parity dataset (synthetic), all other datasets are publicly available. Their sources are listed below:
+Beyond the *Parity* dataset (synthetic), all other datasets are publicly available. Their sources are listed below:
 - *Arithmetic*: [google-deepmind/mathematics_dataset](https://github.com/google-deepmind/mathematics_dataset)
 - *Category* (aka News): [BBC News](http://mlg.ucd.ie/datasets/bbc.html)
 - *Language*: [MartinThoma/wili_2018](https://huggingface.co/datasets/MartinThoma/wili_2018)
