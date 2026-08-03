@@ -98,14 +98,26 @@ tweets:
 Set `resume_from: "YYYYMMDD_HHMMSS"` in your config to continue from a checkpoint.
 
 ## Citation
+Please cite the original [ACL 2026 paper](https://aclanthology.org/2026.acl-long.1470/) if you use any of the resources in this repository.
 ```
-@misc{chen2026understandingllmperformancedegradation,
-      title={Understanding LLM Performance Degradation in Multi-Instance Processing: The Roles of Instance Count and Context Length}, 
-      author={Jingxuan Chen and Mohammad Taher Pilehvar and Jose Camacho-Collados},
-      year={2026},
-      eprint={2603.22608},
-      archivePrefix={arXiv},
-      primaryClass={cs.AI},
-      url={https://arxiv.org/abs/2603.22608}, 
+@inproceedings{chen-etal-2026-understanding-llm,
+    title = "Understanding {LLM} Performance Degradation in Multi-Instance Processing: The Roles of Instance Count and Context Length",
+    author = "Chen, Jingxuan  and
+      Pilehvar, Mohammad Taher  and
+      Camacho-Collados, Jose",
+    editor = "Liakata, Maria  and
+      Moreira, Viviane P.  and
+      Zhang, Jiajun  and
+      Jurgens, David",
+    booktitle = "Proceedings of the 64th Annual Meeting of the {A}ssociation for {C}omputational {L}inguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2026",
+    address = "San Diego, California, United States",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.acl-long.1470/",
+    doi = "10.18653/v1/2026.acl-long.1470",
+    pages = "31851--31884",
+    ISBN = "979-8-89176-390-6"
 }
+
 ```
